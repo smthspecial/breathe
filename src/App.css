@@ -1,6 +1,26 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
 }
+
+input {
+  margin-bottom: 16px;
+}
+
+.number_inputs, .radio_inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.result {
+  margin-top: 16px;
+  font-size: xx-large;
+}
+
 
 .App-logo {
   height: 40vmin;
