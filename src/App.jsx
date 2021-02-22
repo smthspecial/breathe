@@ -39,7 +39,7 @@ function App() {
   };
 
   React.useEffect(() => {
-    setCalculated(Math.round(getBreathe(inputState)));
+    setCalculated(getBreathe(inputState).toFixed(2));
   }, [inputState, inputState.height, inputState.age]);
   return (
     <div className="App">
